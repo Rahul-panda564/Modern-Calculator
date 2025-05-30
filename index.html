@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Calculator</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="calculator">
+    <input type="text" class="display" id="display" disabled />
+    <div class="buttons">
+      <button class="btn clear">C</button>
+      <button class="btn delete">⌫</button>
+      <button class="btn operator">%</button>
+      <button class="btn operator">/</button>
+
+      <button class="btn">7</button>
+      <button class="btn">8</button>
+      <button class="btn">9</button>
+      <button class="btn operator">*</button>
+
+      <button class="btn">4</button>
+      <button class="btn">5</button>
+      <button class="btn">6</button>
+      <button class="btn operator">-</button>
+
+      <button class="btn">1</button>
+      <button class="btn">2</button>
+      <button class="btn">3</button>
+      <button class="btn operator">+</button>
+
+      <button class="btn">0</button>
+      <button class="btn">.</button>
+      <button class="btn equal">=</button>
+
+      <button class="btn">√</button>
+      <button class="btn">^</button>
+      <button class="btn">(</button>
+      <button class="btn">)</button>
+    </div>
+    <div style="text-align:center; margin-bottom: 20px;">
+      <button id="toggle-theme">Toggle Dark Mode</button>
+    </div>
+    <div class="history-panel">
+        <h3>History</h3>
+        <ul id="history-list"></ul>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
